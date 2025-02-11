@@ -1,0 +1,25 @@
+body {
+    background: red;
+    /* Color é para a cor do texto */
+    color: white;
+} 
+
+p {
+    /* Cor do texto preto e em negrito */
+    color: black;
+    font-weight: bold;
+}
+
+
+.verde{
+
+    color: green;
+    /* tamanho da fonte */
+    font-size: 42px;
+}
+
+
+#ID1 {
+
+    text-decoration: underline;
+}

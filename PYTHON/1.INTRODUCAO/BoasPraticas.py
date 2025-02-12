@@ -42,3 +42,9 @@ from types import {
 # [6] -> Imports devem ser colocados no topo antes de qualquer comentários, variáveis globais 
 
 # [7] não deixe espaços entre funções e variáveis. ex: funcao (  algo  [   1   ]) ou algo ( 2 )
+
+"""[8] Sempre depois de valores com vírgula devemos dar um espaço. Serve para o uso de tuplas 1, 44.
+    Lembre-se que valor float é separado por ponto e não por vírgula.
+"""
+
+

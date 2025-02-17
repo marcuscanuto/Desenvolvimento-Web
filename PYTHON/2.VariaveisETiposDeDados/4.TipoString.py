@@ -68,3 +68,19 @@ print(f" De trás para frente  {nome[:: -1]}")
 # Substitui letras em uma string
 print(f"Substituindo letra em um string, onde estiver o T maiúsculo será substituido pelo D: {nome.replace('T', 'D')}")
 
+# Repete a string 3 vezes
+print(nome * 3)
+
+# Para pegar código para emojis: https://apps.timwhitlock.info/emoji/tables/unicode
+
+# Original: U+1F4B5
+# Modoficado: U0001F4B5 -> adicionamos 3 zeros no lugar do + 
+
+# Precisa da barra para ser imprimido corretamente. 
+print('\U0001F4B5')
+
+# Agora vamos fazer com o for e com outro emoji 
+
+for _ in range(3):
+    for num in range(1, 11):
+        print('\U0001F4B8' * num)
